@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  color: #444;
+  background-color: #e3e1ff;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 50%;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 96rem;
+  margin: 8rem auto;
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgba(28, 6, 49, 0.1);
+  background: #eee;
+  /* background-image: linear-gradient(to top left, #ffb003, #ffcb03); */
+  /* background-image: linear-gradient(to top left, #ffb003, #ffcb03); */
+}
+
+.error {
+  color: #ff3f80;
+  font-size: 1.6rem;
+}
+
+button {
+  text-decoration: none;
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
